@@ -1,0 +1,10 @@
+
+1.将glll_wp_flash_calendar文件夹放在plugins的根目录下（既\wp-content\plugins） 后台激活插件
+
+2.将date-sample.xml改名成date.xml根据XML配置.txt编辑成你自己想表示的。
+
+3.适当的位置写入
+<?php glll_wp_flash_calendar(210); ?>
+或者<?php glll_wp_flash_calendar(988); ?>
+
+210表示一行7天的短日历，988表示全部显示在一行的长日历。

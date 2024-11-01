@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<date>
+<site>http://www.ll19.com/</site>
+<future>人生就是这样的,对吧.;,;人生就是这样的.</future>
+<images>http://localhost/wordpress/glll/nomail/nomail</images>
+<imagesTotal>15</imagesTotal>
+<nopost>- 没写日志也没装B -;,;- 没写日志也没B蛋 -;,;- 没写日志不过还是很帅 -;,;- 没写日志人生就是这样的 -;,;- 没写日志可能快成工作狂了 -;,;- 没日志不过被N个监工监视 -;,;- 没写日志却莫名感慨中 -;,;- 没写日志还是坚强的坚持着 -;,;- 没写日志想要恢复下war3 -;,;- 不可能天天写吧,还有时间做别的事么 -</nopost>
+<post>- GL'LL.装B了 -;,;- GL'LL.狂草了 -;,;- GL'LL.人生了 -;,;- GL'LL.YY了 -;,;- GL'LL.淫荡了 -;,;- GL'LL.小日了 -;,;- GL'LL.跌荡了 -;,;- GL'LL.萌芽了 -;,;- GL'LL.起伏了 -</post>
+<time>
+<timeline time="02-27" title="GL'LL.生日." />
+<timeline time="05-23" title="06年的今天从青岛前往北京工作." />
+<timeline time="05-24" title="07年5月24日－LL19.com - google PR到5." />
+<timeline time="07-19" title="06年的今天正式使用WORDPRESS." />
+<timeline time="09-17" title="丽." />
+<timeline time="12-01" title="05年的今天FL-war3队伍成立." />
+<timeline time="06-24" title="08年的今天做了这个日历..测试用" />
+</time>
+</date>
+
+
+
+site站点wordpress的绝对地址。
+
+future这里配置的值显示在日历“未来”的时间里，可以配多句话随机显示。中间用;,;隔开，比如我想在将来显示“这是以后的时间”和“今天之后”则写入 这是以后的时间;,;今天之后。
+
+images和imagesTotal本来想在显示提示中加上图片效果，不过做好后觉得效果不是很好所以不用配置这里。
+
+nopost中配没有文章的日期提示显示的内容，多个随机显示同样也用;,;隔开，比如 今天没日志;,;今天有点累没写日志。
+
+post中配置的内容会在又日志的提示中显示，比如我配了- GL'LL.YY了 -;,;- GL'LL.淫荡了 -，就会在日志的这天显示- GL'LL.YY了 - 《日志标题》这样，同样多个随机显示用;,;隔开。
+
+time节点中的timeline是用来记录自己的重要日期的，会在对应的日子中显示在提示栏上。
+timeline中的time是显示的时间，必须按照月-日的写法来写，月不足十位要补0，比如02-27否则无法对应上。
+ttimeline中的title是显示在这个日期上的文字。
+
+比如我配了time="02-27" title="GL'LL.生日." 则在每年的2月27号提示栏都会显示“GL'LL.生日.”。
+
+有日志的则最优先，比如你今天写了日志不过也在timeline写了今天的日期记录，则只会显示WP的日志。
